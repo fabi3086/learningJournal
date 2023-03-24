@@ -32,7 +32,7 @@ body {
     justify-content: space-around;
     height: 50vh;
     margin-bottom: 1.3em;
-    background-image: url("./images/article-image-hero.png");
+    background-image: url("../images/article-image-hero.png");
     background-size: cover;
     background-position: center;
 }
