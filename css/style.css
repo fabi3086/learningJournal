@@ -1,0 +1,451 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+}
+
+/* LAYOUT */
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    background: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.header-section div {
+    display: flex;
+}
+
+.logo-img {
+    margin-left: 0.6em;
+    height: 4vh;
+    margin-top: 1.2em; 
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    margin-bottom: 1.3em;
+    background-image: url("./images/article-image-hero.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.article-4,
+.article-5,
+.article-6{
+    display: none; 
+}
+
+.article-date {
+    margin-left: 1.3em;
+}
+
+.article-title {
+    margin-left: 0.6em;
+}
+
+/* index2.html */
+
+#article-main-img {
+    display: block;
+    width: 90%;
+    height: 29vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.8em;
+    margin-bottom: 2em;
+    border-radius: 3px;
+}
+
+.article-preview,
+.article-content {
+    margin-left: 1.5em;
+    margin-right: 1.3em;
+}
+
+.articles-listing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+}
+
+.divider {
+    text-align: center;
+}
+
+#img-1,
+#img-2,
+#img-3,
+#img-4,
+#img-5,
+#img-6 {
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2em;
+}
+
+.article-preview {
+    margin-left: 1.3em;
+    line-height: 1.25em;
+}
+
+.article-main-date {
+   margin-left: 1.3em;
+}
+
+.article-main-title {
+    margin-left: 0.6em;
+    margin-top: 0.5625em;
+}
+
+.article-top-content {
+    margin-left: 1.5em;
+}
+
+/* index3.html */
+
+#about-me-img {
+    height: 20vh;
+    border-radius: 50%;
+    margin-left: 1.5em;
+}
+
+/* btn */
+
+button {  
+    height: 10vh;
+    margin-top: 0.675em;
+    margin-bottom: 1em;    
+}
+
+/* footer */
+
+.footer-section {
+    background-color: #202020;
+    height: 20vh;
+}
+
+/* TYPOGRAPHY */
+
+.header-title,
+.article-title-hero,
+.footer-title {
+     letter-spacing: -0.03em;
+}
+
+.header-title{
+    font-family: 'Roboto' sans-serif;
+    font-size: 0.8125rem;
+    margin-left: 0.1em;
+}
+
+.home,
+.about-me {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #090909;
+}
+
+
+.header-title,
+.home,
+.about-me {
+     margin-top: 1.5em;
+     line-height: 1.5;
+}
+
+.home {
+    margin-left: 11.5em;
+    padding-right: 1.5em;
+}
+
+.article-title-hero,
+.article-date-hero,
+.article-preview-hero {
+      color: #FFFFFF;
+}
+
+.article-date-hero {
+    font-size: 0.75rem;
+    line-height: 0;
+    margin-left: 1.5em;
+}
+
+.article-title-hero {
+    font-size: 2rem;
+    line-height: 1.05;
+    margin-left: 0.6375em;   
+}
+
+.article-preview-hero {
+    font-size: 1rem;
+    margin-left: 1.25em;
+    margin-bottom: -3.255em;
+    margin-right: 3.5em;
+    line-height: 1.25;
+}
+
+p {
+    color: #090909;
+}
+
+/* index2.html manin-article */
+
+.article-content,
+.subtitle {
+     font-size: 1rem;
+}
+
+.subtitle {
+    font-weight: 700;
+    margin-left: 1.5em;
+}
+
+.divider {
+    margin-top: 3.5em;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25em;
+}
+
+/* index3.html */
+
+.article-title-about-me {
+    font-weight: 700;
+    font-size: 2.125rem;
+    margin-left: 0.667em;
+    margin-right: 1.4em;
+    line-height: 1.1;
+}
+
+.article-content-p1 {
+    font-size: 1rem;
+    margin-left: 1.5em;
+    margin-right: 1.6em;
+}
+
+/* article listings */
+
+.article-date,
+.article-preview {
+    font-weight: 400;
+}
+
+.article-date {
+    color: #000000;
+}
+
+.article-title {
+    color: #141414;
+}
+
+.article-preview {
+   color: #505050;
+}
+
+/* btn */
+
+button {
+    font-family: 'Source Sans Pro';
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: #000000;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.btn,
+.footer-title,
+.copyright {
+    text-align: center;
+}
+
+/* footer */
+
+.footer-title,
+.copyright {
+    font-size: 0.75rem;
+}
+
+.footer-title {
+    padding-top: 3.5em;
+    font-weight: 700;
+    color: #ECECEC;
+}
+
+.copyright {
+    margin-top: -0.625em;
+    color: #D7D7D7;
+}
+
+/* MEDIA QUERYS */
+
+@media(min-width: 700px){
+    body, button {
+        background: #FAFAFA;
+    }
+    
+    .article-4,
+    .article-5,
+    .article-6 {
+        display: block;
+    }
+    
+    .hero-section {
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+    
+    .header-section div {
+        margin-left: 1.8em;
+        margin-right: 1.5em;
+    }
+    
+    .hero-section div {
+        margin-top: 10em;
+        margin-left: 2em;
+    }
+    
+    .article-preview-hero {
+        width: 45vw;
+    }
+   
+    .article-date {
+        margin-left: 2.5em; 
+    }
+    
+    .article-title {
+        margin-left: 1.2em; 
+    } 
+   
+    .article-preview {
+        margin-left: 2.5em;    
+    }    
+    
+    .articles-listing  {
+        display: grid;
+        grid-template-areas: "article-1 article-2 article-3"
+                             "article-4 article-5 article-6";
+    }
+    
+    .article-1,
+    .article-2,
+    .article-3,
+    .article-4,
+    .article-5,
+    .article-6 {
+        max-width: 35vw;
+        margin-left: 2.5em;
+    }
+    
+    .article-1 {
+        grid-area: article-1;
+    }
+    
+    .article-2 {
+        grid-area: article-2;
+    }
+    
+    .article-3 {
+        grid-area: article-3;
+    }
+    
+    .article-4 {
+        grid-area: article-4;
+    }
+    
+    .article-5 {
+        grid-area: article-5;
+    }
+    
+    .article-6 {
+        grid-area: article-6;
+    }
+    
+    #img-1,
+    #img-2,
+    #img-3,
+    #img-4,
+    #img-5,
+    #img-6 {
+        max-width: 80%;
+        height: 30vh;
+    } 
+
+}
+
+/* index2.html */
+
+@media (min-width: 700px) {
+    .article-main-date {
+        margin-left: 7.7em;
+    }
+    
+    .article-main-title {
+        margin-left: 3.8em;
+    }
+    
+    .article-top-content {
+        margin-left: 7.8em;
+        margin-bottom: 2em;
+    }
+
+    #article-main-img {
+        height: 160%;
+        margin: 0px auto;
+    }
+    
+    .image-container {
+        height: 60vh;
+        overflow-y: hidden;
+    }
+        
+    .article-content,
+    .subtitle {
+        margin-left: 7.562em;
+        margin-right: 5.5em;
+    }
+    
+    .subtitle {
+        margin-top: 3em;
+    }   
+
+}
+/* index3.html */
+
+@media (min-width: 700px){
+    .section-about-me {
+        display: flex;
+        line-height: 1.2;
+    }
+
+    #about-me-img {
+        margin-top: 5.5em;
+        margin-right: -2.5em;
+        margin-left: 4em;
+    }
+    
+    .article-title-about-me {
+        margin-top: 2.5em;
+        margin-left: 2.06em;
+    }
+    
+    .article-content-p1 {
+        margin-left: 4em;
+    }
+    
+    .about-me-2part {
+        margin-top: 6em;
+    }
+}
